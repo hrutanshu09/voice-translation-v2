@@ -1,0 +1,10 @@
+flask
+twilio
+python-dotenv
+requests
+google-generativeai
+gunicorn 
+whisper
+cryptography
+ffmpeg-python
+torch
