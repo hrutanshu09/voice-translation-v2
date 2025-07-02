@@ -7,7 +7,7 @@ def send_to_gemini(text: str) -> str:
     model = genai.GenerativeModel("models/gemini-2.0-flash")
 
     prompt = [
-        "You are an AI assistant. Respond helpfully to the following user message. Ignore or redact any encrypted content like [ENCRYPTED:...]",
+        "You are an AI assistant.Translate and Respond helpfully to the following user message. Ignore or redact any encrypted content like [ENCRYPTED:...]",
         text
     ]
 
